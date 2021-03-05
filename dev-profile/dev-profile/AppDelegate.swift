@@ -2,13 +2,12 @@
 //  AppDelegate.swift
 //  dev-profile
 //
-//  Created by Jaypee Umandap on 6/3/20.
-//  Copyright © 2020 Jervy Umandap. All rights reserved.
+//  Created by Jeff Umandap on 3/5/21.
 //
 
 import UIKit
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
