@@ -1,5 +1,5 @@
 //
-//  ImageBorder.swift
+//  ButtonBorder.swift
 //  dev-profile
 //
 //  Created by Jeff Umandap on 3/5/21.
@@ -7,18 +7,20 @@
 
 import UIKit
 
-class ImageBorder: UIImageView {
+class ButtonBorder: UIButton {
     
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        layer.cornerRadius = 6.5
-//        layer.borderWidth = 2.0
+        
+        layer.cornerRadius = 2.5
+//        layer.borderWidth = 3
 //        layer.borderColor = UIColor.white.cgColor
         
     }
-
+    
+    
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
